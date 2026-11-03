@@ -11,3 +11,5 @@
 @media(min-width:851px) and (orientation:landscape) and (max-height:950px){.studio{min-height:390px;gap:12px 24px}.swatches{gap:10px;margin-bottom:12px}.swatch{width:48px;height:48px}.tool-row{grid-template-columns:repeat(4,1fr);gap:8px}.tool{font-size:21px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:54px;gap:3px;padding:6px}.tool span{font-size:11px}.brush{grid-row:2;grid-column:1/5;min-height:42px;padding:0}.logo-preview{padding:8px;gap:0}.logo-preview>span{display:none}.logo-preview canvas{max-height:80px;width:180px}.studio>.primary{min-height:64px;padding:16px 20px}}
 
 h1,h2{font-family:'BT Danta','Be Vietnam Pro',sans-serif}
+
+#shutter-flash{position:absolute;inset:0;background:white;opacity:0;pointer-events:none;z-index:5}#shutter-flash.flashing{animation:shutter-flash 300ms ease-out}@keyframes shutter-flash{0%{opacity:.95}100%{opacity:0}}@media(prefers-reduced-motion:reduce){#shutter-flash.flashing{animation-duration:150ms;animation-name:shutter-flash-soft}@keyframes shutter-flash-soft{0%{opacity:.3}100%{opacity:0}}}
