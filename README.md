@@ -17,3 +17,7 @@ Camera yêu cầu HTTPS hoặc localhost và quyền camera từ trình duyệt.
 ## GitHub Pages
 
 Workflow `.github/workflows/pages.yml` build và deploy khi push `main`. Trong Settings → Pages, chọn Source: GitHub Actions nếu repository chưa bật Pages. Địa chỉ dự kiến sau khi deploy thành công: https://vuminhdesign10-top.github.io/bnkk_photobooth/ . Không cần đưa ảnh người dùng lên GitHub.
+
+## Giao diện máy photobooth
+
+Màn hình chờ có nút Chạm để bắt đầu. Các màn hình thao tác rút gọn nội dung, nút cảm ứng lớn và nút Toàn màn hình (cần người dùng chạm). Bố cục đã được kiểm thử tại 1366×768, 1920×1080 và 1080×1920. Sau khi tải ảnh, chọn Xong · Lượt tiếp theo để xóa phiên và trở về màn hình chờ. Chia sẻ/tải xuống phụ thuộc trình duyệt của máy; chưa tích hợp máy in hay QR chuyển ảnh sang điện thoại.
